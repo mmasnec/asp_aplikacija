@@ -1,0 +1,13 @@
+﻿body {
+    background-color: orange !important;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+}
+.text-cmp{
+    font-weight: bold !important;
+    color: darkred !important;
+}

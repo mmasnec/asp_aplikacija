@@ -10,6 +10,8 @@
     <form id="form1" runat="server">
         <div>
             <asp:Label ID="LblUsr" runat="server" Text=""></asp:Label>
+            <br />
+            <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Home.aspx" runat="server">HyperLink</asp:HyperLink>
         </div>
     </form>
 </body>
