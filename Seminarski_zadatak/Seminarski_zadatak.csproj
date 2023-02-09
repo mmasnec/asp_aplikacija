@@ -71,6 +71,7 @@
     <Content Include="App_Data\Company_log.ldf">
       <DependentUpon>Company.mdf</DependentUpon>
     </Content>
+    <Content Include="ChangeUsername.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
     <Content Include="Index.aspx" />
@@ -81,6 +82,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChangeUsername.aspx.cs">
+      <DependentUpon>ChangeUsername.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangeUsername.aspx.designer.cs">
+      <DependentUpon>ChangeUsername.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Design.Master.cs">
       <DependentUpon>Design.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
