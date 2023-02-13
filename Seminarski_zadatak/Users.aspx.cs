@@ -62,7 +62,11 @@ namespace Seminarski_zadatak
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!Page.IsPostBack)
+            {
+                username.Text += (string)Session["username"];
 
+            }
         }
 
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
@@ -122,6 +126,12 @@ namespace Seminarski_zadatak
         {
             this.MWUpdate.ActiveViewIndex = 0;
             LblUser.Text = "Update user: " + Session["username"];
+
+        }
+
+        protected void BtnAdmin_Click(object sender, EventArgs e)
+        {
+            this.MWUpdate.ActiveViewIndex = 1;
 
         }
     }

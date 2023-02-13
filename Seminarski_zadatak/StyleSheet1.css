@@ -1,13 +1,43 @@
 ﻿body {
-    background-color: orange !important;
+    background-color: forestgreen !important;
 }
+
 footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     height: 30px;
 }
 .text-cmp{
     font-weight: bold !important;
     color: darkred !important;
+}
+
+.login{
+    background-color: yellowgreen !important;
+}
+
+.hero-image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 200px;
+}
+
+.hi-1 {
+    background-image: url("img/hero-image.jpg");
+}
+.hi-2 {
+    background-image: url("img/hero-image2.jpg");
+}
+.txt-username{
+    color: brown !important;
+    font-weight: bold !important;
+    padding-right: 3px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+table a{
+    text-decoration:none !important;
 }

@@ -47,6 +47,8 @@
             </tr>
         </table>
         <asp:Label ID="LblMsg" runat="server" Text=""></asp:Label>
+        <br />
+        <asp:LinkButton ID="LinkButton1" PostBackUrl="~/Users.aspx" runat="server">Go back</asp:LinkButton>
     </form>
 </body>
 </html>

@@ -11,6 +11,7 @@ namespace Seminarski_zadatak
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            username.Text += (string)Session["username"];
 
         }
     }

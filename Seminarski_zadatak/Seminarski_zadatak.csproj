@@ -74,6 +74,8 @@
     <Content Include="ChangeUsername.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
+    <Content Include="img\hero-image.jpg" />
+    <Content Include="img\hero-image2.jpg" />
     <Content Include="Index.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="StyleSheet1.css" />
