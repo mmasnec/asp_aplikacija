@@ -5,10 +5,15 @@
             <div class="txt-username">
             <asp:Label ID="username" runat="server" Text="User: "></asp:Label>
 
+
             </div>
         </div>
     </header>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     Home page
+    <video autoplay muted loop class="video">
+        <source src="img/ComputerKeyboard.mp4" type="video/mp4"/>
+    </video>
 </asp:Content>

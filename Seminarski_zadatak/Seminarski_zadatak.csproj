@@ -71,9 +71,11 @@
     <Content Include="App_Data\Company_log.ldf">
       <DependentUpon>Company.mdf</DependentUpon>
     </Content>
+    <Content Include="ChangePassword.aspx" />
     <Content Include="ChangeUsername.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
+    <Content Include="img\ComputerKeyboard.mp4" />
     <Content Include="img\hero-image.jpg" />
     <Content Include="img\hero-image2.jpg" />
     <Content Include="Index.aspx" />
@@ -84,6 +86,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ChangeUsername.aspx.cs">
       <DependentUpon>ChangeUsername.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -141,6 +150,12 @@
   <ItemGroup>
     <Content Include="Design.Master" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile1.pubxml" />
+    <None Include="Properties\PublishProfiles\FTPProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\FTPProfile1.pubxml" />
+    <None Include="Properties\PublishProfiles\FTPProfile2.pubxml" />
+    <None Include="Properties\PublishProfiles\FTPProfile3.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

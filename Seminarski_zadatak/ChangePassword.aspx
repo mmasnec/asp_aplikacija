@@ -1,11 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ChangeUsername.aspx.cs" Inherits="Seminarski_zadatak.ChangeUsername" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ChangePassword.aspx.cs" Inherits="Seminarski_zadatak.ChangePassword" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
-    <style type="text/css">
+        <style type="text/css">
         .auto-style1 {
             width: 100%;
             border-color: #66CCFF;
@@ -15,6 +14,7 @@
             width: 151px;
         }
     </style>
+    <title></title>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -25,24 +25,24 @@
         <table class="auto-style1">
             <tr>
                 <td class="auto-style2">
-                    <asp:Label ID="Label2" runat="server" Text="New username: "></asp:Label>
+                    <asp:Label ID="Label2" runat="server" Text="Old password: "></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="TxtNewUsername" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TxtPassword" TextMode="Password" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style2">
-                    <asp:Label ID="Label3" runat="server" Text="Confirm password: "></asp:Label>
+                    <asp:Label ID="Label3" runat="server" Text="New password: "></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="TxtConfirmPass" TextMode="Password" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TxtNewPass" TextMode="Password" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style2">&nbsp;</td>
                 <td>
-                    <asp:Button ID="BtnChange" runat="server" OnClick="BtnChange_Click" Text="Change username" />
+                    <asp:Button ID="BtnNewPass" runat="server" OnClick="BtnNewPass_Click" Text="Change password" />
                 </td>
             </tr>
         </table>

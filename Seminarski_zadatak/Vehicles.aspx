@@ -10,7 +10,7 @@
     </header>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h2 class="text-center">Vehicles page</h2>
+    <h2 class="text-center text-lime">Vehicles page</h2>
 
 
     <div class="container-fluid">
@@ -34,12 +34,16 @@
          
 
         </div>
-    <div class="col-lg-12 col-sm-12 d-flex justify-content-center">
-        <asp:Label ID="LblVehicle" runat="server" Text="Selected Vehicle: "></asp:Label>
-        <asp:TextBox ID="TxtVehicleMan" runat="server" ></asp:TextBox>
         <br />
+        <br />
+    <div class="col-lg-12 col-sm-12 d-flex justify-content-center">
+        <asp:Label ID="LblVehicle" runat="server" class="text-lime" Text="Selected Vehicle: "></asp:Label>&nbsp;
+        <asp:TextBox ID="TxtVehicleMan" runat="server"  Height="25px"></asp:TextBox>
+
 
         </div>
+        <br />
+        <br />
         <div class="col-lg-12 col-sm-12 d-flex justify-content-center">
             <asp:Button ID="BtnReg" class="btn btn-primary" runat="server" OnClick="BtnReg_Click" Text="Change registration" />&nbsp;
             <asp:Button ID="BtnExp" class="btn btn-primary" runat="server" OnClick="BtnExp_Click" Text="Change expiration" />&nbsp;
